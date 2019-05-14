@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes) {
     });
   
     Comment.associate = function(models) {
-      //Associate with Posts & Authors?
+      Comment.belongsTo(models.Post)
     };
   
     return Comment;

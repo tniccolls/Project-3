@@ -23,6 +23,9 @@ module.exports = function(sequelize, DataTypes) {
   Post.associate = function(models) {
     // A Post can't be created without an Author due to the foreign key constraint
     //This may be subject to change when user auth is completed
+    Post.hasMany(models.Comment, {
+      onDelete: "cascade"
+    })
     Post.belongsTo(models.Author, {
       foreignKey: {
         allowNull: false
