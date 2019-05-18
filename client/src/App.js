@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';
 import Carousel from './pages/Carousel';
 
-
 function App() {
   return (
     <Router>
