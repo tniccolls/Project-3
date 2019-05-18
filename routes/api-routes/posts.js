@@ -3,16 +3,9 @@ const postsController = require('../../controllers/postsController');
 
 // Matches with "/api/posts"
 router
-  .route('/')
+  .route('/posts')
   .get(postsController.findAll)
-  .post(postsController.create)
-  .update(postController.update);
+  .post(postsController.create);
 
-// Matches with "/api/books/:id"
-// router
-//   .route("/:id")
-//   .get(postsController.findById)
-//   .put(postsController.update)
-//   .delete(postsController.remove);
 
 module.exports = router;
