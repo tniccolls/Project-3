@@ -17,4 +17,13 @@ module.exports = {
       res.json(dbPost);
     });
   },
+  update: function(req, res) {
+    db.Post.update({
+      title: req.body.title,
+      body: req.body.body,
+      category: req.body.category,
+    }).then(function(dbPost) {
+      res.json(dbPost);
+    });
+  },
 };
