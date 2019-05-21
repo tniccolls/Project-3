@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import './css/_slick.scss';
-// import './css/_slickTheme.scss';
 import "./css/style.css";
+import Navbar from "../components/Navbar";
 
 class Carousel extends Component {
   constructor(props) {
@@ -19,7 +18,7 @@ class Carousel extends Component {
   render() {
     const settings = {
       dots: false,
-      arrows: true,
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
@@ -29,8 +28,9 @@ class Carousel extends Component {
       cssEase: "linear"
     };
     return (
-      <div>
-        <h2 class="fas fa-home"> Welcome to our website</h2>
+      <div id="c-background">
+        <Navbar />
+        {/* <h2 class="fas fa-home"> Welcome to our website</h2> */}
         <Slider ref={c => (this.slider = c)} {...settings}>
           <div class="slide">
             <h3>Let's try something bigger</h3>
@@ -62,11 +62,11 @@ class Carousel extends Component {
           </div>
         </Slider>
         <div style={{ textAlign: "center" }}>
-          <button className="button" onClick={this.previous}>
+          <button className="slide-button" onClick={this.previous}>
             <i class="fas fa-angle-double-left left-arrow" />
             Previous
           </button>
-          <button className="button" onClick={this.next}>
+          <button className="slide-button" onClick={this.next}>
             Next
             <i class="fas fa-angle-double-right right-arrow" />
           </button>

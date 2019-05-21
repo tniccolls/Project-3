@@ -8,6 +8,7 @@ function Nav()
       <a className="navbar-brand" id="grace-city-center" href="/">
         Grace City Center
         </a>
+        <img src={require('../Assets/Images/gracecity_logo.png')} alt="image" />
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="nav-link" id ="nav-text" href="/login">Login</a>

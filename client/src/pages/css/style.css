@@ -22,7 +22,7 @@ border: 10px; */
 .right-arrow{
     margin-left: 10px;
 }
-button{
+.slide-button{
     background:blue;
     color: lightcyan;
     border:solid;
@@ -36,11 +36,11 @@ button{
     margin-top: 10px;
     margin-left: 15px;
   }
-  button:hover{
+  .slide-button:hover{
     background:rgb(92, 200, 236);
     color:black;
   }
-  button:before,button:after{
+  .slide-button:before,button:after{
     content:'';
     position:absolute;
     top:0;
@@ -50,14 +50,17 @@ button{
     background: white;
     transition:400ms ease all;
   }
-  button:after{
+  .slide-button:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  button:hover:before,button:hover:after{
+  .slide-button:hover:before,button:hover:after{
     width:100%;
     transition:800ms ease all;
   }
   
+#c-background{
+  background: linear-gradient(to right, #003399 0%, #0099ff 100%)
+}
