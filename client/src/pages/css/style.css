@@ -64,3 +64,8 @@ border: 10px; */
 #c-background{
   background: linear-gradient(to right, #003399 0%, #0099ff 100%)
 }
+
+#card-background{
+  background-color: blue;
+  /* background: linear-gradient(to right, #003399 0%, #0099ff 100%) */
+}
