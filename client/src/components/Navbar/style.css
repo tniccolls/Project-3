@@ -1,0 +1,24 @@
+#grace-city-center {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 28pt;
+}
+
+#nav-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 16pt;
+}
+
+#nav-text:hover {
+    text-decoration-line: underline;
+}
+
+#nav-text:active {
+    font-size: 15pt;
+    text-decoration-line: underline;
+}
+
+#bg {
+    background: linear-gradient(to right, #003399 0%, #0099ff 100%);
+}

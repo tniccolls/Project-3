@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import API from '../utils/API';
 // import { Link } from 'react-router-dom';
+import Navbar from "../components/Navbar";
 import RandomHomeComponent from '../components/RandomHomeComponent';
 
 class Home extends Component {
@@ -46,6 +47,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         {JSON.stringify(this.state.posts)}
         <RandomHomeComponent />
         <div>

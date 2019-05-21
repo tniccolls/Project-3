@@ -11,10 +11,11 @@ module.exports = {
   create: function(req, res) {
     db.Post.create({
       title: req.body.title,
+      author: req.body.author,
       body: req.body.body,
-      category: req.body.category,
     }).then(function(dbPost) {
       res.json(dbPost);
     });
   },
 };
+
