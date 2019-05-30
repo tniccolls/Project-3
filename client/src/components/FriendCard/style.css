@@ -1,7 +1,6 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 200px;
   margin: 1rem;
   position: relative;
   width: 325px;
@@ -11,7 +10,7 @@
 }
 
 .card > .img-container {
-  height: 80%;
+  height: 150px;
   overflow: hidden;
   text-align: center;
   background:#6CADDC;

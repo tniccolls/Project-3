@@ -12,6 +12,9 @@ function FriendCard(props) {
           <li>
             <strong> {props.name} </strong>
           </li>
+          <li>
+            {props.info}
+          </li>
         </ul>
       </div>
     </div>

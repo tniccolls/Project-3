@@ -3,19 +3,42 @@ import Slider from "react-slick";
 import "./css/style.css";
 import Navbar from "../components/Navbar";
 import FriendCard from "../components/FriendCard";
-import friends from "../friends.json";
+import infoCards from "./JSON_files/infocards.json";
+import display from "./JSON_files/display.json";
+
 import Helmet from "react-helmet";
 
 class Carousel extends Component {
   state = {
-    friends
+    display
   };
+
+  clickPic = id => {
+    if(id === 1){
+      display.splice(0,13,display[0],infoCards[3],infoCards[4],infoCards[5],infoCards[12]);
+      this.setState({ display });
+    }
+    if(id===2){
+      display.splice(0,12,display[1],infoCards[6],infoCards[7],infoCards[8],infoCards[12]);
+      this.setState({ display });
+    }
+    if(id===3){
+      display.splice(0,12,display[2],infoCards[9],infoCards[10],infoCards[11],infoCards[12]);
+      this.setState({ display });
+    }
+    if(id===13){
+      display.splice(0,12,infoCards[0],infoCards[1],infoCards[2]);
+      this.setState({ display });
+    }
+  }
+
 
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
   }
+
   next() {
     this.slider.slickNext();
   }
@@ -27,10 +50,9 @@ class Carousel extends Component {
       dots: false,
       arrows: false,
       infinite: true,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 3,
       autoplay: true,
-      speed: 1000,
       autoplaySpeed: 3500,
       cssEase: "linear"
     };
@@ -42,34 +64,55 @@ class Carousel extends Component {
           <Helmet>
             <style>{"body { background-color: #E0FFFF }"}</style>
           </Helmet>
-          <div class="slide">
-            <h3>Let's try something bigger</h3>
+          <div id="1" class="slide">
+            <img
+              class="slide_image"
+              src={require("../components/Assets/Images/dvshelter_4.09.jpg")} 
+              alt = "Shelter"
+            />
           </div>
-          <div class="slide">
+          <div id="slide2" class="slide">
             {/* <h3>2</h3> */}
             <img
               class="slide_image"
-              src="https://texastinyhomes.com/wp-content/uploads/2013/03/Rendering-3-3.jpg"
-              alt="house"
+              src={require("../components/Assets/Images/lowIncome.jpg")} 
+              alt="housing"
             />
           </div>
-          <div class="slide">
-            {/* <h3>3</h3> */}
+          {/* {<div id="slide3" class="slide">
             <img
               class="slide_image"
-              src="https://texastinyhomes.com/wp-content/uploads/2013/03/Rendering-3-3.jpg"
-              alt="house"
+              src={require("../components/Assets/Images/transitionalHousing.png")}
+              alt="transitional housing"
+            />
+          </div>} */}
+          <div id="slide4" class="slide">
+            <img
+              class="slide_image"
+              src={require("../components/Assets/Images/htshelter.jpg")}
+              alt = "shelter2"
             />
           </div>
-          <div class="slide">
-            <h3>4</h3>
+          <div id="slide5" class="slide">
+            <img
+              class="slide_image"
+              src={require("../components/Assets/Images/legal_services.png")}
+              alt="legal services"
+            />
           </div>
-          <div class="slide">
-            <h3>5</h3>
+          <div id="slide6" class="slide">
+            <img
+              class="slide_image"
+              src={require("../components/Assets/Images/homelessShelter.jpg")}
+              alt = "shelter3"
+            />
           </div>
-          <div class="slide">
-            <h3>6</h3>
-          </div>
+          {/* <div class="slide">
+          <img
+              class="slide_image"
+              src={require("../components/Assets/Images/youthshelter.jpeg")}
+            />
+          </div> */}
         </Slider>
         <div style={{ textAlign: "center" }}>
           <button className="slide-button" onClick={this.previous}>
@@ -82,13 +125,14 @@ class Carousel extends Component {
           </button>
         </div>
         <div id="card-background">
-          {this.state.friends.map(friend => (
+          {this.state.display.map(friend => (
             <FriendCard
               clickPic={this.clickPic}
               id={friend.id}
               key={friend.id}
               name={friend.name}
               image={friend.image}
+              info={friend.info}
             />
           ))}
         </div>
