@@ -3,6 +3,7 @@ const postRoutes = require('./posts');
 
 // Message Board Posts routes
 router.use('/', postRoutes);
-router.use('/posts', postRoutes); //For the message board
+router.use('/posts', postRoutes)
+router.use('/posts/:id', postRoutes); //For the message board
 
 module.exports = router;
