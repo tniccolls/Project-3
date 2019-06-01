@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import API from '../utils/API';
 import Navbar from "../components/Navbar"
 import { Input, TextArea, FormBtn } from "../components/Form";
-import { Col, Container } from "../components/Grid";
+import { Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
-import { Link } from "react-router-dom";
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class MessageBoard extends Component
 {
@@ -67,14 +67,14 @@ class MessageBoard extends Component
         <Row className="justify-content-md-center">
         <Col size="md-9">
         <Accordion defaultActiveKey="0">
-          <Card>
+          <Card id="mb-card">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
                 Create New Post
               </Accordion.Toggle>
             </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body>
+                <Card.Body id="mb-card2">
                     <Input
                       value={this.state.title}
                       onChange={this.handleInputChange}
@@ -107,11 +107,9 @@ class MessageBoard extends Component
               <List>
                 {this.state.posts.map(post => (
                   <ListItem key={post.id}>
-                    <Link to={"/posts/:id" + post.id}>
                       <strong>
                         {post.title} by {post.author}
                       </strong>
-                    </Link>
                     <p>
                       {post.body}
                     </p>
