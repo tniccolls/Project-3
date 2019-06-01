@@ -65,11 +65,11 @@ class Carousel extends Component {
             <style>{"body { background-color: #E0FFFF }"}</style>
           </Helmet>
           <div id="1" class="slide">
-            <img
+            <a href = "https://google.com"><img
               class="slide_image"
               src={require("../components/Assets/Images/dvshelter_4.09.jpg")} 
               alt = "Shelter"
-            />
+            /></a>
           </div>
           <div id="slide2" class="slide">
             {/* <h3>2</h3> */}
