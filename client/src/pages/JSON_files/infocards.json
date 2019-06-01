@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "info": "Mighty Thor, the strongest Avenger. This is where the text information will go. ",
+    "name": "Thor, Son of Odin",
+    "image": "https://media1.popsugar-assets.com/files/thumbor/QPVMXPy9dzxaP7IDPrxsf5vSujM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/05/01/626/n/1922283/tmp_LPPFvU_19f5b1e86b84451e_MCDAVEN_EC206.jpg"
+  },
+  {
+    "id": 2,
+    "info" : "Worthy of Mjollner. Text info goes here.",
+    "name": "Captain America",
+    "image": "https://images.fatherly.com/wp-content/uploads/2018/10/captain-america-4th-of-july.jpg?q=65&enable=upscale&w=600"
+  },
+  {
+    "id": 3,
+    "info": "I am Iron Man. Text info goes here.",
+    "name": "Iron Man",
+    "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/03/Robert-Downey-Jr.-as-Iron-Man.jpg"
+  },
+    {
+      "id": 4,
+      "name": "The Incredible Hulk",
+      "image": "https://img.cinemablend.com/filter:scale/quill/f/6/5/6/3/d/f6563d61cbd89a9a3213d72507fc02e497884c5a.jpg?mw=600"
+    },
+    {
+      "id": 5,
+      "name": "Hawkeye",
+      "image": "https://fsmedia.imgix.net/56/ab/8f/16/4eec/4883/877c/f9cd570896a0/jeremy-renner-as-hawkeye-in-the-avengers-2012.jpeg?rect=0%2C58%2C1000%2C500&auto=format%2Ccompress&dpr=2&w=650"
+    },
+    {
+      "id": 6,
+      "name": "Black Widow",
+      "image": "https://i.kinja-img.com/gawker-media/image/upload/s--36pryRD2--/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1239338569520019525.png"
+    },
+    {
+      "id": 7,
+      "name": "Black Panther",
+      "image": "https://www.thewrap.com/wp-content/uploads/2018/02/the-black-panther-film-marvel.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Scarlet Witch",
+      "image": "https://cosmicbook.news/sites/default/files/scarlet-witch-tv-series-title.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ant-Man",
+      "image": "https://fsmedia.imgix.net/f4/68/81/03/d193/499b/9980/8fd46309da83/theres-a-new-spin-on-a-popular-avengers-4-quantum-realm-theory.jpeg?rect=0%2C74%2C940%2C470&auto=format%2Ccompress&dpr=2&w=650"
+    },
+    {
+      "id": 10,
+      "name": "Nick Fury",
+      "image": "https://fsmedia.imgix.net/a0/00/6b/6e/5fd3/4f4a/9a43/abaed622fa17/captain-america-the-winter-soldier-2014.jpeg?rect=0%2C289%2C2880%2C1439&auto=format%2Ccompress&dpr=2&w=650"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Strange",
+      "image": "https://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2018/04/doctor_strange_main.jpg?itok=0tSw99vh"
+    },
+    {
+      "id": 12,
+      "name": "Star Lord",
+      "image": "https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/04/Star-Lord-in-Guardians-of-the-Galaxy-Vol.-2.jpg"
+    },
+    {
+      "id":13,
+      "name": "Back to Home",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZT8HPJcJS1hxI14MoT4enVOw5czoeudP5WETO1aBteLKsoCh3ng"
+    }
+
+  ]
+  
