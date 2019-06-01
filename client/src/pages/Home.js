@@ -45,9 +45,10 @@ class Home extends Component {
       })
     );
   render() {
+    console.log(localStorage)
     return (
       <div>
-        <Navbar />
+        
         {JSON.stringify(this.state.posts)}
         <RandomHomeComponent />
         <div>
