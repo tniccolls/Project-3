@@ -74,6 +74,7 @@ border: 10px; */
 #mb-card {
   background: none;
   width: 90%;
+  align-content: center;
 }
 
 #mb-card2 {

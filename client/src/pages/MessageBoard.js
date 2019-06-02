@@ -58,6 +58,14 @@ class MessageBoard extends Component
       })
     );
 
+    handleFormClear = () => {
+      this.setState({
+        title: "",
+        author: "",
+        body: ""
+      })
+    };
+
   render()
   {
     return (
@@ -92,10 +100,12 @@ class MessageBoard extends Component
                       onChange={this.handleInputChange}
                       name="body"
                     />
+                    <Accordion.Toggle as={Button} variant="link" eventKey="1">
                     <FormBtn
                       disabled={!(this.state.author && this.state.title)}
                       onClick={this.handleFormSubmit}
                     />
+                    </Accordion.Toggle>
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
