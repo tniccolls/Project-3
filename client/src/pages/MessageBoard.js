@@ -59,7 +59,7 @@ class MessageBoard extends Component
     );
 
     handleFormClear = () => {
-      this.setState({
+      this.setState({ 
         title: "",
         author: "",
         body: ""
