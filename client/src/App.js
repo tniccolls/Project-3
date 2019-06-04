@@ -14,11 +14,12 @@ function App() {
       <div>
       
         <Switch>
-          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/posts" component={MessageBoard} />
-          <Route exact path = "/testpage" component={Carousel} />
+
           <Route exact path = "/signup" component={Signup} />
           <Route exact path = "/login" component={Login} />
+          <Route exact path = "/" component={Carousel} />
           <Route component={NoMatch} />
 
         </Switch>

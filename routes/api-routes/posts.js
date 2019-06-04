@@ -5,6 +5,7 @@ const postsController = require('../../controllers/postsController');
 router
   .route('/posts')
   .get(postsController.findAll)
+  .get(postsController.findOne)
   .post(postsController.create);
 
 

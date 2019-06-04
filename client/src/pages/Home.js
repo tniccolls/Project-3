@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
+import Navbar from "../components/Navbar"
 import API from '../utils/API';
 // import { Link } from 'react-router-dom';
-import Navbar from "../components/Navbar";
+import RandomHomeComponent from '../components/RandomHomeComponent';
 
 
 class Home extends Component {

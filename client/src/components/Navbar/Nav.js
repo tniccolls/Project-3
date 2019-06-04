@@ -21,7 +21,9 @@ render(){
       <a class="navbar-brand" id="grace-city-center" href="/">
         Grace City Center
         </a>
-        <img src={require('../Assets/Images/gracecity_logo.png')} alt="image" />
+        <a href="/">
+        <img src={require('../Assets/Images/gracecity_logo.png')} alt = "GraceCity Logo"/>
+        </a>
         <ul class="nav justify-content-end">
           {this.state.user ? <li class="nav-item">
             <Link class="nav-link" id ="nav-text" to="/login" onClick={() => localStorage.removeItem("current_user_token")}>Logout</Link>
