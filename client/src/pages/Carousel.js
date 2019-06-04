@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import FriendCard from "../components/FriendCard";
 import infoCards from "./JSON_files/infocards.json";
 import display from "./JSON_files/display.json";
-
+import Footer from "../components/Footer/Footer"
 import Helmet from "react-helmet";
 
 class Carousel extends Component {
@@ -65,11 +65,11 @@ class Carousel extends Component {
             <style>{"body { background-color: #E0FFFF }"}</style>
           </Helmet>
           <div id="1" class="slide">
-            <img
+            <a href = "https://google.com"><img
               class="slide_image"
               src={require("../components/Assets/Images/dvshelter_4.09.jpg")} 
               alt = "Shelter"
-            />
+            /></a>
           </div>
           <div id="slide2" class="slide">
             {/* <h3>2</h3> */}
@@ -136,7 +136,9 @@ class Carousel extends Component {
             />
           ))}
         </div>
+        <Footer />
       </div>
+
     );
   }
 }
