@@ -38,21 +38,6 @@ class Signup extends Component {
       onChange = key => e => this.setState({ [key]: e.target.value });
     
       
-        // API.createPost({
-        //   userName: this.state.userName,
-        //   password: this.state.password,
-        // }).then(() =>
-        //   this.setState({
-        //     posts: [
-        //       ...this.state.posts,
-        //       {
-        //         userName: this.state.userName,
-        //         password: this.state.password,
-                
-        //       },
-        //     ],
-        //   })
-        // );
       render() {
         return (
           <div>

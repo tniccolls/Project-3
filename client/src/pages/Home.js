@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import API from '../utils/API';
 // import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
-import RandomHomeComponent from '../components/RandomHomeComponent';
+
 
 class Home extends Component {
   state = {
@@ -48,31 +48,12 @@ class Home extends Component {
     console.log(localStorage)
     return (
       <div>
-        
-        {JSON.stringify(this.state.posts)}
-        <RandomHomeComponent />
-        <div>
-          <input
-            type="text"
-            value={this.state.title}
-            label="title"
-            onChange={this.onChange('title')}
-          />
-          <input
-            type="text"
-            value={this.state.body}
-            label="body"
-            onChange={this.onChange('body')}
-          />
-          <input
-            type="text"
-            value={this.state.category}
-            label="category"
-            onChange={this.onChange('category')}
-          />
+      <Navbar/>  
+              
+         
           <button onClick={this.onClick}>Create</button>
         </div>
-      </div>
+      
     );
   }
 }

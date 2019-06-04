@@ -4,7 +4,7 @@ var jwt = require('jsonwebtoken')
 // =============================================================
 module.exports = {
   validate: function(req, res) {
-    return jwt.verify(req.body.token, 'shhhhh', function(err, decoded) {
+    return jwt.verify(req.body.token, 'shhhhh', function(err, _decoded) {
       if(err){
         return res.status(400).send({msg: "invalid token"});
       }
@@ -21,8 +21,8 @@ module.exports = {
         return res.status(400).send({msg: "Wrong password"})
       }
       var token = jwt.sign({ userName: user.userName }, 'shhhhh');
-      return res.json({ userName: u.userName, token: token });
-    }).catch(e => res.status(400).send({msg: "Invalid requst"}))
+      return res.json({ userName: user.userName, token: token });
+    }).catch(e => res.status(400).send({msg: "Invalid request"}))
   },
   signup: function(req, res) {
     db.User.create({

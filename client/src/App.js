@@ -6,13 +6,13 @@ import MessageBoard from "./pages/MessageBoard";
 import Carousel from './pages/Carousel';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import Navbar from "./components/Navbar/Nav"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <Router>
       <div>
-      <Navbar />
+      
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/posts" component={MessageBoard} />
