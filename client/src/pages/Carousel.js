@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import FriendCard from "../components/FriendCard";
 import infoCards from "./JSON_files/infocards.json";
 import display from "./JSON_files/display.json";
-
+import Footer from "../components/Footer/Footer"
 import Helmet from "react-helmet";
 
 class Carousel extends Component {
@@ -136,7 +136,9 @@ class Carousel extends Component {
             />
           ))}
         </div>
+        <Footer />
       </div>
+
     );
   }
 }
