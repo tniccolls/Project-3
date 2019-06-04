@@ -69,3 +69,16 @@ border: 10px; */
   background-color: blue;
   /* background: linear-gradient(to right, #003399 0%, #0099ff 100%) */
 }
+
+/* To fix style on message board card */
+#mb-card {
+  background: none;
+  width: 90%;
+  align-content: center;
+}
+
+#mb-card2 {
+  background: none;
+  width: 90%;
+  align-content: center;
+}
