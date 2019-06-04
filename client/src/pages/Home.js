@@ -4,6 +4,7 @@ import API from '../utils/API';
 // import { Link } from 'react-router-dom';
 import RandomHomeComponent from '../components/RandomHomeComponent';
 
+
 class Home extends Component {
   state = {
     posts: [],
@@ -44,33 +45,15 @@ class Home extends Component {
       })
     );
   render() {
+    console.log(localStorage)
     return (
       <div>
-        <Navbar />
-        {JSON.stringify(this.state.posts)}
-        <RandomHomeComponent />
-        <div>
-          <input
-            type="text"
-            value={this.state.title}
-            label="title"
-            onChange={this.onChange('title')}
-          />
-          <input
-            type="text"
-            value={this.state.body}
-            label="body"
-            onChange={this.onChange('body')}
-          />
-          <input
-            type="text"
-            value={this.state.category}
-            label="category"
-            onChange={this.onChange('category')}
-          />
+      <Navbar/>  
+              
+         
           <button onClick={this.onClick}>Create</button>
         </div>
-      </div>
+      
     );
   }
 }
