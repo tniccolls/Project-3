@@ -1,72 +1,81 @@
 [
   {
     "id": 1,
-    "info": "Mighty Thor, the strongest Avenger. This is where the text information will go. ",
-    "name": "Thor, Son of Odin",
-    "image": "https://media1.popsugar-assets.com/files/thumbor/QPVMXPy9dzxaP7IDPrxsf5vSujM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/05/01/626/n/1922283/tmp_LPPFvU_19f5b1e86b84451e_MCDAVEN_EC206.jpg"
-  },
-  {
-    "id": 2,
-    "info" : "Worthy of Mjollner. Text info goes here.",
-    "name": "Captain America",
-    "image": "https://images.fatherly.com/wp-content/uploads/2018/10/captain-america-4th-of-july.jpg?q=65&enable=upscale&w=600"
-  },
+    "info": "",
+    "name": "Domestic Violence Shelters",
+    "image": "https://www.weaveinc.org/sites/main/files/imagecache/pod/main-images/girls_smiling_dm_4.09.jpg"},
+ 
+    {"id": 2,
+    "info" : "",
+    "name": "Homeless Shelters",
+    "image": "https://ugmsac.com/wp-content/uploads/2018/10/ugm4.jpg"
+ 
+    },
   {
     "id": 3,
-    "info": "I am Iron Man. Text info goes here.",
-    "name": "Iron Man",
-    "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/03/Robert-Downey-Jr.-as-Iron-Man.jpg"
-  },
-    {
-      "id": 4,
-      "name": "The Incredible Hulk",
-      "image": "https://img.cinemablend.com/filter:scale/quill/f/6/5/6/3/d/f6563d61cbd89a9a3213d72507fc02e497884c5a.jpg?mw=600"
-    },
-    {
+    "info": "",
+    "name": "Transitional Housing",
+    "image": "https://www.comstocksmag.com/sites/main/files/imagecache/lightbox/main-images/0216_ft_philanthropy_lead_joancusick.jpg"
+   },
+  {
+  "id": 4,
+  "info": "",
+  "name": "Low Income Housing",
+  "image": "https://voa-production.s3.amazonaws.com/dragonfly-uploads/2018/02/15/15/37/50/50217c02-ed3b-452b-99fc-f3561a22fa68/Family_20Housing.jpg"
+ },
+ 
+ {
       "id": 5,
       "name": "Hawkeye",
       "image": "https://fsmedia.imgix.net/56/ab/8f/16/4eec/4883/877c/f9cd570896a0/jeremy-renner-as-hawkeye-in-the-avengers-2012.jpeg?rect=0%2C58%2C1000%2C500&auto=format%2Ccompress&dpr=2&w=650"
     },
+ 
     {
       "id": 6,
-      "name": "Black Widow",
-      "image": "https://i.kinja-img.com/gawker-media/image/upload/s--36pryRD2--/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1239338569520019525.png"
+      "info": "916-920-2952; 7600 Hospital Drive, Sacramento, CA",
+      "name": "WEAVE",
+      "image": "https://www.weaveinc.org/sites/default/themes/dtheme/img/logo-theme.svg"
     },
     {
       "id": 7,
-      "name": "Black Panther",
-      "image": "https://www.thewrap.com/wp-content/uploads/2018/02/the-black-panther-film-marvel.jpg"
+      "info": "916-728-7210; 6060 Sunrise Drive, Citrus Heights, CA",
+      "name": "A Community for Peace",
+      "image": "https://acommunityforpeace.org/wp-content/uploads/LOGO-200x100_-website-1-1.jpg?x74145"
     },
     {
       "id": 8,
-      "name": "Scarlet Witch",
-      "image": "https://cosmicbook.news/sites/default/files/scarlet-witch-tv-series-title.jpg"
+      "info": "916-669-7000; 1351 N C St, Sacramento, CA 95811",
+      "name": "Loaves and Fishes",
+      "image": "http://www.sacloaves.org/images/HomelessMenFrame.jpg"
     },
     {
       "id": 9,
-      "name": "Ant-Man",
-      "image": "https://fsmedia.imgix.net/f4/68/81/03/d193/499b/9980/8fd46309da83/theres-a-new-spin-on-a-popular-avengers-4-quantum-realm-theory.jpeg?rect=0%2C74%2C940%2C470&auto=format%2Ccompress&dpr=2&w=650"
+      "info": "916-447-3268; 400 Bannon St, Sacramento, CA 95811",
+      "name": "Union Gospel Mission",
+      "image": "https://ugmsac.com/wp-content/uploads/2018/10/ugm2.jpg"
     },
     {
       "id": 10,
-      "name": "Nick Fury",
-      "image": "https://fsmedia.imgix.net/a0/00/6b/6e/5fd3/4f4a/9a43/abaed622fa17/captain-america-the-winter-soldier-2014.jpeg?rect=0%2C289%2C2880%2C1439&auto=format%2Ccompress&dpr=2&w=650"
+      "info": "916-443-3107; 166 Commerce Cr. STE A, Sacramento, CA 95815",
+      "name": "Family Promise of Sacramento",
+      "image": "https://sacfamilypromise.org/wp-content/uploads/2014/01/FamilyPromise_retina_logo.jpg"
     },
     {
       "id": 11,
-      "name": "Dr. Strange",
-      "image": "https://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/2018/04/doctor_strange_main.jpg?itok=0tSw99vh"
+      "info": "916-453-1482",
+      "name": "St. John's Hope for Real Change",
+      "image": "https://saintjohnsprogram.org/wp-content/themes/st.j/images/stj-logo.png"
     },
     {
       "id": 12,
-      "name": "Star Lord",
-      "image": "https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/04/Star-Lord-in-Guardians-of-the-Galaxy-Vol.-2.jpg"
+      "info": "916-681-5944; 8120 Power Inn Rd, Sacramento, CA",
+      "name": "Community Housing Opportunities",
+      "image": "http://chochousing.org/images/logo.jpg"
     },
     {
       "id":13,
       "name": "Back to Home",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZT8HPJcJS1hxI14MoT4enVOw5czoeudP5WETO1aBteLKsoCh3ng"
     }
-
+ 
   ]
-  

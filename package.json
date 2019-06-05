@@ -1,7 +1,8 @@
 {
-  "name": "blog-crud",
+  "name": "grace-city",
   "version": "1.0.0",
-  "description": "",
+  "description": "A resource of information for Grace City volunteers",
+  "repository": "https://github.com/tniccolls/Project-3",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

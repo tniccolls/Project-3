@@ -15,19 +15,27 @@ class Carousel extends Component {
 
   clickPic = id => {
     if(id === 1){
-      display.splice(0,13,display[0],infoCards[3],infoCards[4],infoCards[5],infoCards[12]);
+      display.splice(0,13,display[0],infoCards[5],infoCards[6],infoCards[12]);
       this.setState({ display });
     }
     if(id===2){
-      display.splice(0,12,display[1],infoCards[6],infoCards[7],infoCards[8],infoCards[12]);
+      display.splice(0,12,display[1],infoCards[7],infoCards[8],infoCards[12]);
       this.setState({ display });
     }
     if(id===3){
-      display.splice(0,12,display[2],infoCards[9],infoCards[10],infoCards[11],infoCards[12]);
+      display.splice(0,12,display[2],infoCards[9],infoCards[10],infoCards[12]);
+      this.setState({ display });
+    }
+    if(id===4){
+      display.splice(0,12,display[3],infoCards[11],infoCards[12]);
+      this.setState({ display });
+    }
+    if(id===5){
+      display.splice(0,12,display[4],infoCards[11],infoCards[12]);
       this.setState({ display });
     }
     if(id===13){
-      display.splice(0,12,infoCards[0],infoCards[1],infoCards[2]);
+      display.splice(0,12,infoCards[0],infoCards[1],infoCards[2], infoCards[3]);
       this.setState({ display });
     }
   }
