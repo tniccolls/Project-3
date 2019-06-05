@@ -1,6 +1,9 @@
 {
   "name": "grace-city",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.13.0"
+  },
   "description": "A resource of information for Grace City volunteers",
   "repository": "https://github.com/tniccolls/Project-3",
   "main": "server.js",
