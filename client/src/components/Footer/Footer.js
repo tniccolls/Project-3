@@ -5,7 +5,7 @@ function Footer()
 {
   return (
 <nav class="navbar fixed-bottom navbar-light">
-  <a class="navbar-brand" href="#">Fixed bottom</a>
+  <a class="navbar-brand" href="#">Grace City Center</a>
 </nav>
 
   );
