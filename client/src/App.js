@@ -4,14 +4,21 @@ import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';
 import MessageBoard from "./pages/MessageBoard";
 import Carousel from './pages/Carousel';
+import Signup from './pages/Signup';
+import Login from './pages/Login';
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <Router>
       <div>
+      
         <Switch>
           {/* <Route exact path="/" component={Home} /> */}
           <Route exact path="/posts" component={MessageBoard} />
+
+          <Route exact path = "/signup" component={Signup} />
+          <Route exact path = "/login" component={Login} />
           <Route exact path = "/" component={Carousel} />
           <Route component={NoMatch} />
 
