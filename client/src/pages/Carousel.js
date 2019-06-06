@@ -144,7 +144,7 @@ class Carousel extends Component {
             />
           ))}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
     );
